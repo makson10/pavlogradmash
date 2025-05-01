@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+.header-cell {
+	@apply font-[Jetbrains_mono] font-extralight text-center p-4 border-t-2 border-t-[#F99200];
+}
+
+.row-cell {
+	@apply font-[Jetbrains_mono] font-extralight text-center p-2;
+}
+
+.row-button {
+	@apply font-[Jetbrains_mono] bg-[#F99200] text-white px-4 py-3 rounded-full cursor-pointer;
+}

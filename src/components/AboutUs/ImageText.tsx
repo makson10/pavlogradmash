@@ -3,8 +3,8 @@ const ImageText = () => (
 		<div className="flex flex-col gap-2">
 			<p className="bebas-neue text-xl text-[#002834]">ПРО НАШЕ ПІДПРИЄМСТВО</p>
 			<div className="flex flex-col gap-4">
-				<div className="w-[410px] h-[2px] bg-[#F99200]" />
-				<div className="w-[304px] h-[2px] bg-[#F99200]" />
+				<div className="w-[410px] border-2 border-[#F99200]" />
+				<div className="w-[304px] border-2 border-[#F99200]" />
 			</div>
 		</div>
 		<p className="inter text-[#002834] text-[20px]">
