@@ -15,16 +15,9 @@ const NavigationBar = () => (
 		<ul className="flex flex-row gap-4">
 			<li>
 				<a
-					href="#home"
+					href="#advantages"
 					className="text-[#002834] text-sm jetbrains-mono cursor-pointer">
-					ГОЛОВНА
-				</a>
-			</li>
-			<li>
-				<a
-					href="#services"
-					className="text-[#002834] text-sm jetbrains-mono cursor-pointer">
-					ПОСЛУГИ
+					ПЕРЕВАГИ
 				</a>
 			</li>
 			<li>
@@ -32,6 +25,13 @@ const NavigationBar = () => (
 					href="#about"
 					className="text-[#002834] text-sm jetbrains-mono cursor-pointer">
 					ПРО НАС
+				</a>
+			</li>
+			<li>
+				<a
+					href="#offers"
+					className="text-[#002834] text-sm jetbrains-mono cursor-pointer">
+					ПРОПОЗИЦІЇ
 				</a>
 			</li>
 			<li>

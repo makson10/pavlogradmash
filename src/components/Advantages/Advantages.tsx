@@ -2,7 +2,7 @@ import SectionTitle from '../common/SectionTitle';
 import AdvantagesList from './AdvantagesList';
 
 const Advantages = () => (
-	<div className="flex flex-col gap-20 my-8">
+	<div className="flex flex-col gap-20 my-8" id="advantages">
 		<SectionTitle title="ПЕРЕВАГИ СПІВПРАЦІ З НАМИ" />
 		<AdvantagesList />
 	</div>

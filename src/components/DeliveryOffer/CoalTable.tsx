@@ -1,7 +1,14 @@
+import { useAppDispatch } from '@/store/hooks';
+import { changeFuelType } from '@/store/fuelTypeSlice';
 import '@/styles/table.css';
 
 const CoalTable = () => {
-	const handleClick = () => (window.location.href = '#contacts');
+	const dispatch = useAppDispatch();
+
+	const handleClick = (fuelType: string) => {
+		dispatch(changeFuelType(fuelType));
+		window.location.href = '#contacts';
+	};
 
 	return (
 		<table className="w-full border-separate border-spacing-y-5">
@@ -27,7 +34,9 @@ const CoalTable = () => {
 					<td className="row-cell">5300-5800</td>
 					<td className="row-cell">38-42%</td>
 					<td className="row-cell">
-						<button className="row-button" onClick={handleClick}>
+						<button
+							className="row-button"
+							onClick={() => handleClick('coal_dg')}>
 							ЗАЛИШИТИ ЗАПИТ
 						</button>
 					</td>
@@ -41,7 +50,9 @@ const CoalTable = () => {
 					<td className="row-cell">5300-5800</td>
 					<td className="row-cell">38-42%</td>
 					<td className="row-cell">
-						<button className="row-button" onClick={handleClick}>
+						<button
+							className="row-button"
+							onClick={() => handleClick('coal_gj')}>
 							ЗАЛИШИТИ ЗАПИТ
 						</button>
 					</td>
@@ -55,7 +66,9 @@ const CoalTable = () => {
 					<td className="row-cell">5300-5800</td>
 					<td className="row-cell">38-42%</td>
 					<td className="row-cell">
-						<button className="row-button" onClick={handleClick}>
+						<button
+							className="row-button"
+							onClick={() => handleClick('coal_dgr')}>
 							ЗАЛИШИТИ ЗАПИТ
 						</button>
 					</td>
@@ -69,7 +82,9 @@ const CoalTable = () => {
 					<td className="row-cell">3400-5100</td>
 					<td className="row-cell">38-42%</td>
 					<td className="row-cell">
-						<button className="row-button" onClick={handleClick}>
+						<button
+							className="row-button"
+							onClick={() => handleClick('shlamokontsentrat')}>
 							ЗАЛИШИТИ ЗАПИТ
 						</button>
 					</td>

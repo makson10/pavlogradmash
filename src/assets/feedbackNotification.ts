@@ -1,4 +1,4 @@
-import { IFormData } from '../types/formData';
+import { IFormData } from '@/types/formData.types';
 import axios from 'axios';
 import fuelDict from './fuelDict';
 
@@ -7,11 +7,14 @@ const formatFeedbackNotificationText = (data: IFormData) => {
 
 Прізвище та iм'я користувача: ${data.lastName} ${data.firstName}
 Номер телефону: ${data.phoneNumber}
-Вид палива: ${fuelDict[data.fuelType]}
-
+Вид палива: ${fuelDict[data.fuelType as keyof typeof fuelDict]}
+${
+	data.message &&
+	`
 Повідомлення від користувача:
-${data.message}    
-    
+${data.message}
+`
+}    
 Будь ласка, зв'яжіться з користувачем для підтвердження замовлення 💼`;
 };
 

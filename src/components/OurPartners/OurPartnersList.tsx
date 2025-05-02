@@ -11,12 +11,12 @@ const OurPartnersList = () => (
 			className="w-[300px] h-[300px] object-cover"
 		/>
 		<img
-			src="ourPartners/1.png"
+			src="ourPartners/3.png"
 			alt="#"
 			className="w-[300px] h-[300px] object-cover"
 		/>
 		<img
-			src="ourPartners/2.png"
+			src="ourPartners/4.png"
 			alt="#"
 			className="w-[300px] h-[300px] object-cover"
 		/>

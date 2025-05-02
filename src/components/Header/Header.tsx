@@ -2,7 +2,7 @@ import InformationSection from './InformationSection';
 import ImageSection from './ImageSection';
 
 const Header = () => (
-	<div className="min-w-full px-30 flex flex-row gap-4">
+	<div className="min-w-full px-30 flex flex-row gap-4" id="home">
 		<InformationSection />
 		<ImageSection />
 	</div>
