@@ -45,7 +45,7 @@ const ContactForm = () => {
 	};
 
 	return (
-		<div className="w-1/2 max-sm:w-full">
+		<div className="w-1/2 max-sm:w-full" id='contact-form'>
 			<p className="jetbrains-mono text-[20px] text-[#F99200] text-center cursor-pointer">
 				ЗАЛИШИТИ ПОВІДОМЛЕННЯ
 			</p>
@@ -57,7 +57,7 @@ const ContactForm = () => {
 					<>
 						<SyncFuelTypeWithRedux />
 
-						<Form className="flex flex-col gap-8 mt-10 mx-auto w-2/3">
+						<Form className="flex flex-col gap-6 mt-10 mx-auto w-2/3 max-sm:w-4/5 max-sm:mt-6 max-sm:gap-3">
 							<div>
 								<Field
 									type="text"

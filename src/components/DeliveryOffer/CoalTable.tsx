@@ -7,7 +7,7 @@ const CoalTable = () => {
 
 	const handleClick = (fuelType: string) => {
 		dispatch(changeFuelType(fuelType));
-		window.location.href = '#contacts';
+		window.location.href = '#contact-form';
 	};
 
 	return (

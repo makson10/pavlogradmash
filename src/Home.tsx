@@ -9,12 +9,13 @@ import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
 
 // TODO:
-//? add responsive design for mobile and tablet
-//? check all text
+//? make all section titles smaller
+//? add responsive design for tablet
+//? reset form after submit and show success message
 
 const Home = () => (
 	<div className="min-w-screen min-h-screen max-sm:overflow-x-hidden">
-		<div className="p-8 flex flex-col gap-30 max-sm:p-0 max-sm:gap-16">
+		<div className="p-8 flex flex-col gap-36 max-sm:p-0 max-sm:gap-16 max-sm:mb-14">
 			<Header />
 			<Advantages />
 			<AboutUs />
@@ -24,7 +25,7 @@ const Home = () => (
 			<OurPartners />
 			<Contacts />
 		</div>
-		{/* <Footer /> */}
+		<Footer />
 	</div>
 );
 

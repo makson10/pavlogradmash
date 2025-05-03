@@ -8,7 +8,7 @@ import {
 import PartnerCard from './PartnerCard';
 
 const PartnersList = () => (
-	<div className="bg-[#E9E9EB] w-full flex flex-row gap-10 p-8 max-sm:flex-col max-sm:bg-transparent max-sm:gap-6">
+	<div className="bg-[#E9E9EB] w-full flex flex-row gap-10 p-8 max-sm:flex-col max-sm:bg-transparent max-sm:gap-6 max-sm:py-0">
 		<PartnerCard
 			icon={<FirstIcon />}
 			title="Фермерські господарства"

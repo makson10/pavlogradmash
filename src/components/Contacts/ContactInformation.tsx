@@ -2,32 +2,34 @@ import { EmailIcon, PhoneIcon, TimeIcon, WarningIcon } from './Icons';
 
 const ContactInformation = () => (
 	<div className="w-1/2 max-sm:w-full max-sm:mx-auto">
-		<p className="jetbrains-mono text-[20px] text-[#F99200]">
+		<p className="jetbrains-mono text-[20px] text-[#F99200] max-sm:text-center">
 			КОНТАКТНА ІНФОРМАЦІЯ
 		</p>
-		<div className="flex flex-col gap-12 mt-10">
+		<div className="flex flex-col gap-12 mt-10 max-sm:items-center max-sm:gap-6">
 			<div className="flex flex-row gap-4">
 				<PhoneIcon />
-				<div className="flex flex-col">
+				<div className="flex flex-col max-sm:min-w-[200px]">
 					<p className="jetbrains-mono text-[20px] text-[#002834]">Телефон</p>
-					<div className="inter text-[16px] text-[#4B5563]">
-						<p>+380 67 935 12 65</p>
-						<p>+380 67 134 20 00</p>
+					<div className="inter text-[16px] text-[#4B5563] flex flex-col">
+						<a href="tel:+380679351265">+380 67 935 12 65</a>
+						<a href="tel:+380671342000">+380 67 134 20 00</a>
 					</div>
 				</div>
 			</div>
 			<div className="flex flex-row gap-4">
 				<EmailIcon />
-				<div className="flex flex-col">
+				<div className="flex flex-col max-sm:min-w-[200px]">
 					<p className="jetbrains-mono text-[20px] text-[#002834]">Email</p>
 					<div className="inter text-[16px] text-[#4B5563]">
-						<p>pavlogradmash@gmail.com</p>
+						<a href="mailto:pavlogradmash@gmail.com" className="underline">
+							pavlogradmash@gmail.com
+						</a>
 					</div>
 				</div>
 			</div>
 			<div className="flex flex-row gap-4">
 				<TimeIcon />
-				<div className="flex flex-col">
+				<div className="flex flex-col max-sm:min-w-[200px]">
 					<p className="jetbrains-mono text-[20px] text-[#002834]">
 						Часи роботи
 					</p>
@@ -38,9 +40,9 @@ const ContactInformation = () => (
 			</div>
 			<div className="flex flex-row gap-4">
 				<WarningIcon />
-				<div className="flex flex-col">
+				<div className="flex flex-col max-sm:min-w-[200px]">
 					<p className="jetbrains-mono text-[20px] text-[#002834]">Увага!</p>
-					<div className="inter text-[16px] text-[#4B5563] w-4/5">
+					<div className="inter text-[16px] text-[#4B5563] w-4/5 max-sm:max-w-[200px] max-sm:w-full">
 						<p>
 							Наші менеджери нададуть вам зворотній зв’язок за першої можливості
 						</p>

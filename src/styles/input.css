@@ -6,7 +6,7 @@
 }
 
 .input-error {
-	@apply absolute text-red-500 text-sm mt-1 max-w-full;
+	@apply absolute text-red-500 text-sm max-w-full;
 }
 
 input::-webkit-outer-spin-button,

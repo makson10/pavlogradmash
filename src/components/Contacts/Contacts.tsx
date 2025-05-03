@@ -5,7 +5,7 @@ import ContactForm from './ContactForm';
 const Contacts = () => (
 	<div id="contacts">
 		<SectionTitle title="ЗВ’ЯЗАТИСЯ З НАМИ" />
-		<div className="mt-20 mx-[12%] flex flex-row gap-8 max-sm:mx-0 max-sm:flex-col max-sm:gap-16 max-sm:mt-16">
+		<div className="my-20 mx-[12%] flex flex-row gap-8 max-sm:mx-0 max-sm:flex-col max-sm:gap-14 max-sm:mt-16">
 			<ContactInformation />
 			<ContactForm />
 		</div>

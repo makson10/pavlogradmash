@@ -1,6 +1,6 @@
 const NavigationHeader = () => (
 	<div className="z-10 flex flex-row justify-between items-center pr-10 max-sm:pr-0 max-sm:justify-center">
-		<div className="flex flex-row gap-1 max-sm:flex-col max-sm:gap-3">
+		<div className="flex flex-row gap-1 max-sm:flex-col max-sm:gap-2">
 			<img
 				src="/logo.png"
 				alt="#"
