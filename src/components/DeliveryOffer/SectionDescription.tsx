@@ -1,14 +1,25 @@
-const SectionDescription = () => (
-	<div className="text-center bebas-neue text-[#002834] text-[20px] tracking-wide">
-		<p>Даний список пропонованих до постачання вугілля не є вичерпним.</p>
-		<p>
-			У разі Вашої зацікавленості в інших марках/фракціях вугільної продукції
-			просимо вас{' '}
-			<a href="#contacts" className="text-black underline decoration-[#F99200]">
-				залишити нам повідомлення
-			</a>
-		</p>
-	</div>
-);
+const SectionDescription = () => {
+	const handleClick = () => (window.location.href = '#contacts');
+
+	return (
+		<div className="text-center bebas-neue text-[#002834] text-[20px] tracking-wide max-sm:mx-4 max-sm:text-lg">
+			<p>Даний список пропонованих до постачання вугілля не є вичерпним.</p>
+			<p>
+				У разі Вашої зацікавленості в інших марках/фракціях вугільної продукції
+				просимо вас{' '}
+				<a
+					href="#contacts"
+					className="text-black underline decoration-[#F99200] max-sm:hidden">
+					залишити нам повідомлення
+				</a>
+			</p>
+			<button
+				className="hidden max-sm:block row-button w-full mt-3"
+				onClick={handleClick}>
+				ЗАЛИШИТИ ПОВІДОМЛЕННЯ
+			</button>
+		</div>
+	);
+};
 
 export default SectionDescription;

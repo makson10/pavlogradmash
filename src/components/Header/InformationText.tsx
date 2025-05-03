@@ -2,14 +2,23 @@ const InformationText = () => {
 	const handleClick = () => (window.location.href = '#contacts');
 
 	return (
-		<div className="w-[80%] bebas-neue ml-12 flex flex-col gap-6 z-10">
-			<p className="text-[34px]">Енергія глибин — сила майбутнього</p>
-			<p className="text-xl">
+		<div className="w-[80%] bebas-neue ml-12 flex flex-col gap-6 z-10 max-sm:bg-[url('/header/header-image-background.png')] max-sm:bg-cover max-sm:bg-bottom max-sm:w-full max-sm:m-0 max-sm:min-h-[450px] max-sm:px-6 max-sm:pt-20 max-sm:relative">
+			<div className="hidden max-sm:block bg-[#002834]/76 absolute w-full h-full top-0 left-0 -z-10" />
+			<img
+				src="header/header-image.png"
+				alt="#"
+				className="hidden max-sm:block absolute left-0 scale-[120%] -z-20"
+				draggable="false"
+			/>
+			<p className="text-[34px] max-sm:text-white max-sm:inter max-sm:text-3xl">
+				Енергія глибин — сила майбутнього
+			</p>
+			<p className="text-xl max-sm:text-[#ACABAE] max-sm:inter max-sm:text-base">
 				Надійний видобуток вугілля для сталого розвитку промисловості та
 				енергетики України
 			</p>
 			<button
-				className="bg-[#002834] text-white rounded-full flex flex-row gap-2 w-[380px] h-[77px] mt-8 cursor-pointer z-10"
+				className="bg-[#002834] text-white rounded-full flex flex-row gap-2 w-[380px] h-[77px] mt-8 cursor-pointer z-10 max-sm:bg-[#F99200] max-sm:h-fit max-sm:py-2 max-sm:mt-auto max-sm:mb-10 max-sm:w-full"
 				onClick={handleClick}>
 				<div className="jetbrains-mono m-auto text-sm flex flex-row gap-2 items-center">
 					<p>Залишай заявку</p>

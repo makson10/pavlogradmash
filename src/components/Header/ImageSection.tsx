@@ -1,5 +1,5 @@
 const ImageSection = () => (
-	<div className="relative rounded-[40px] w-1/2 bg-[url('/header/header-image-background.png')] bg-cover bg-center">
+	<div className="relative rounded-[40px] w-1/2 bg-[url('/header/header-image-background.png')] bg-cover bg-center max-sm:hidden">
 		<img
 			src="header/header-image.png"
 			alt="#"

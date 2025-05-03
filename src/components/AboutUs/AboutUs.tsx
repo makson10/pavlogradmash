@@ -1,12 +1,18 @@
+import SectionTitle from '../common/SectionTitle';
 import ImageSlider from './ImageSlider';
 import ImageText from './ImageText';
 
 const AboutUs = () => (
-	<div
-		className="rounded-[40px] bg-[#E9E9EB] mx-40 p-10 flex flex-row gap-12"
-		id="about">
-		<ImageSlider />
-		<ImageText />
+	<div className="flex flex-col gap-12">
+		<div className="hidden max-sm:block">
+			<SectionTitle title="ПРО НАШЕ ПІДПРИЄМСТВО" />
+		</div>
+		<div
+			className="rounded-[40px] bg-[#E9E9EB] mx-40 p-10 flex flex-row gap-12 max-sm:mx-8 max-sm:p-6 max-sm:flex-col max-sm:gap-8"
+			id="about">
+			<ImageSlider />
+			<ImageText />
+		</div>
 	</div>
 );
 

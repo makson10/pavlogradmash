@@ -45,7 +45,7 @@ const ContactForm = () => {
 	};
 
 	return (
-		<div className="w-1/2">
+		<div className="w-1/2 max-sm:w-full">
 			<p className="jetbrains-mono text-[20px] text-[#F99200] text-center cursor-pointer">
 				ЗАЛИШИТИ ПОВІДОМЛЕННЯ
 			</p>

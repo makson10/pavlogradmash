@@ -1,7 +1,7 @@
 import { EmailIcon, PhoneIcon, TimeIcon, WarningIcon } from './Icons';
 
 const ContactInformation = () => (
-	<div className="w-1/2">
+	<div className="w-1/2 max-sm:w-full max-sm:mx-auto">
 		<p className="jetbrains-mono text-[20px] text-[#F99200]">
 			КОНТАКТНА ІНФОРМАЦІЯ
 		</p>

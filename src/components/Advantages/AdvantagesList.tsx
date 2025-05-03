@@ -1,8 +1,8 @@
-import { FirstIcon, SecondIcon, ThirdIcon, FourthIcon } from './Icons';
 import AdvantageCard from './AdvantageCard';
+import { FirstIcon, SecondIcon, ThirdIcon, FourthIcon } from './Icons';
 
 const AdvantagesList = () => (
-	<div className="mx-20 flex flex-row justify-between gap-12">
+	<div className="mx-20 flex flex-row justify-between gap-12 max-sm:flex-col max-sm:mx-0 max-sm:justify-center max-sm:gap-6">
 		<AdvantageCard
 			icon={<FirstIcon />}
 			title="Висока якість вугілля"

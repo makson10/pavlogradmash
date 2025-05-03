@@ -2,11 +2,11 @@ import SectionTitle from '../common/SectionTitle';
 import OurPartnersList from './OurPartnersList';
 
 const OurPartners = () => (
-	<div className="flex flex-col gap-8 items-center mx-26">
+	<div className="flex flex-col gap-8 items-center mx-26 max-sm:mx-0 max-sm:gap-4">
 		<SectionTitle title="НАШІ ПАРТНЕРИ" />
-		<p className="bebas-neue text-[20px] text-[#002834]">
-			Наше підприємство співпрацює з великою кількістю організацій. Серед них ви
-			можете побачити:
+		<p className="bebas-neue text-[20px] text-[#002834] max-sm:text-center">
+			Наше підприємство співпрацює з великою кількістю організацій.{' '}
+			<br className="hidden max-sm:block" /> Серед них ви можете побачити:
 		</p>
 		<OurPartnersList />
 	</div>

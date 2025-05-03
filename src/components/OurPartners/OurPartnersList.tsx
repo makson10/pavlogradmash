@@ -1,24 +1,24 @@
 const OurPartnersList = () => (
-	<div className="w-full flex flex-row justify-between">
+	<div className="w-full flex flex-row justify-between max-sm:grid max-sm:grid-cols-2 max-sm:gap-4 max-sm:p-6">
 		<img
 			src="ourPartners/1.png"
 			alt="#"
-			className="w-[300px] h-[300px] object-cover"
+			className="w-[20%] min-h-full h-full object-cover max-sm:w-[200px] max-sm:h-[200px]"
 		/>
 		<img
 			src="ourPartners/2.png"
 			alt="#"
-			className="w-[300px] h-[300px] object-cover"
+			className="w-[20%] min-h-full object-cover max-sm:w-[200px] max-sm:h-[200px]"
 		/>
 		<img
 			src="ourPartners/3.png"
 			alt="#"
-			className="w-[300px] h-[300px] object-cover"
+			className="w-[20%] min-h-full object-cover max-sm:w-[200px] max-sm:h-[200px]"
 		/>
 		<img
 			src="ourPartners/4.png"
 			alt="#"
-			className="w-[300px] h-[300px] object-cover"
+			className="w-[20%] min-h-full object-cover max-sm:w-[200px] max-sm:h-[200px]"
 		/>
 	</div>
 );

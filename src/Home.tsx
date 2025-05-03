@@ -9,11 +9,12 @@ import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
 
 // TODO:
-//? add responsive design for tablet and phone
+//? add responsive design for mobile and tablet
+//? check all text
 
 const Home = () => (
-	<div className="min-w-screen min-h-screen">
-		<div className="p-8 flex flex-col gap-30">
+	<div className="min-w-screen min-h-screen max-sm:overflow-x-hidden">
+		<div className="p-8 flex flex-col gap-30 max-sm:p-0 max-sm:gap-16">
 			<Header />
 			<Advantages />
 			<AboutUs />
@@ -23,7 +24,7 @@ const Home = () => (
 			<OurPartners />
 			<Contacts />
 		</div>
-		<Footer />
+		{/* <Footer /> */}
 	</div>
 );
 
