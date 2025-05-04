@@ -9,9 +9,10 @@ import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
 
 // TODO:
-//? make all section titles smaller
+//* test submit overlay
+
+//? prevent entering + and enter in inputs
 //? add responsive design for tablet
-//? reset form after submit and show success message
 
 const Home = () => (
 	<div className="min-w-screen min-h-screen max-sm:overflow-x-hidden">

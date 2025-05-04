@@ -9,6 +9,7 @@ import './styles/fonts.css';
 createRoot(document.getElementById('root')!).render(
 	<StrictMode>
 		<Provider store={store}>
+			<div id="portal" className="fixed z-[101] w-screen overflow-hidden" />
 			<Home />
 		</Provider>
 	</StrictMode>

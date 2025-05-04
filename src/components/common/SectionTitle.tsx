@@ -4,7 +4,7 @@ interface Props {
 
 const SectionTitle = ({ title }: Props) => (
 	<div className="w-full flex flex-col gap-2 items-center max-sm:gap-3">
-		<p className="uppercase bebas-neue text-[24px] max-sm:text-xl text-[#002834]">
+		<p className="uppercase bebas-neue text-[22px] max-sm:text-xl text-[#002834]">
 			{title}
 		</p>
 		<div className="flex flex-col gap-4 items-center max-sm:w-full max-sm:gap-3">
