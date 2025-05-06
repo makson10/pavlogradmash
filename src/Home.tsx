@@ -9,9 +9,6 @@ import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
 
 // TODO:
-//* test submit overlay
-
-//? prevent entering + and enter in inputs
 //? add responsive design for tablet
 
 const Home = () => (

@@ -2,7 +2,7 @@ const Footer = () => (
 	<div className="min-h-[200px] bg-[#002834] px-[12%] py-4 max-sm:mt-0 max-sm:px-8 max-sm:pt-8">
 		<div className="flex flex-col gap-2 text-white">
 			<div className="flex flex-row gap-4 justify-between mb-4 max-sm:flex-col max-sm:gap-8">
-				<div className="w-1/4 md:bebas-neue max-sm:w-full">
+				<div className="w-1/4 md:max-lg:bebas-neue max-sm:w-full">
 					<p className="text-[17px] max-sm:font-[Jetbrains_mono]">
 						ТОВ "ПАВЛОГРАДМАШ"
 					</p>
@@ -36,7 +36,7 @@ const Footer = () => (
 					</ul>
 				</div>
 				<div className="w-1/4 flex flex-col gap-3 max-sm:w-full">
-					<p className="md:bebas-neue text-lg max-sm:font-[Jetbrains_mono]">
+					<p className="md:max-lg:bebas-neue text-lg max-sm:font-[Jetbrains_mono]">
 						Потрібна допомога? Телефонуй
 					</p>
 					<div className="inter flex flex-col gap-1">
