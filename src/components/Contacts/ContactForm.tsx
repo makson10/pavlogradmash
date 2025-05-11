@@ -44,9 +44,17 @@ const ContactForm = () => {
 		if (e.key === 'Enter') e.preventDefault();
 	};
 
+	const handleCloseSubmitMessage = () => {
+		setShowSubmitMessage(false);
+	};
+
 	return (
 		<>
-			{showSubmitMessage && <ShowSubmitMessage />}
+			{showSubmitMessage && (
+				<ShowSubmitMessage
+					handleCloseSubmitMessage={handleCloseSubmitMessage}
+				/>
+			)}
 
 			<div className="w-1/2 max-sm:w-full md:max-lg:w-full" id="contact-form">
 				<p className="jetbrains-mono text-[20px] text-[#F99200] text-center">

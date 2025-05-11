@@ -9,9 +9,8 @@ import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
 
 // TODO:
-//? add responsive design for tablet
 //? final check and domain name
-//? add SEO (sitemap.xml, robots.txt, markup optimization)
+//? add SEO (sitemap.xml, robots.txt, markup optimization, meta tags)
 
 const Home = () => (
 	<div className="min-w-screen min-h-screen max-sm:overflow-x-hidden">

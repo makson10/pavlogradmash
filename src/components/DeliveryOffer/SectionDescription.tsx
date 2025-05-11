@@ -9,7 +9,7 @@ const SectionDescription = () => {
 				просимо вас{' '}
 				<a
 					href="#contact-form"
-					className="text-black underline decoration-[#F99200] max-sm:hidden">
+					className="text-black underline decoration-[#F99200] hover:text-[#D56400] max-sm:hidden">
 					залишити нам повідомлення
 				</a>
 			</p>

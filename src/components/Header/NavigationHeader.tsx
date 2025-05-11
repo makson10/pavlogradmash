@@ -6,7 +6,7 @@ const NavigationHeader = () => (
 				alt="#"
 				className="max-sm:w-1/2 max-sm:h-1/2 max-sm:mx-auto"
 			/>
-			<p className="bebas-neue text-[#002834] flex flex-col justify-center mt-2 text-lg tracking-wider max-sm:text-lg max-sm:mt-0 max-sm:tracking-normal">
+			<p className="bebas-neue text-[#002834] flex flex-col justify-center text-lg tracking-wider max-sm:text-lg max-sm:mt-0 max-sm:tracking-normal">
 				ПАВЛОГРАДМАШ
 			</p>
 		</div>
@@ -16,32 +16,32 @@ const NavigationHeader = () => (
 
 const NavigationBar = () => (
 	<nav className="max-sm:hidden md:max-lg:bg-[#E9E9EB] md:max-lg:p-4 md:max-lg:rounded-[22px]">
-		<ul className="flex flex-row gap-4 md:max-lg:gap-6">
+		<ul className="flex flex-row gap-8 md:max-lg:gap-6 hover:text-[#F99200]">
 			<li>
 				<a
 					href="#advantages"
-					className="text-[#002834] text-sm jetbrains-mono cursor-pointer">
+					className="text-[#002834] text-sm jetbrains-mono cursor-pointer transition hover:text-[#F99200]">
 					ПЕРЕВАГИ
 				</a>
 			</li>
 			<li>
 				<a
 					href="#about"
-					className="text-[#002834] text-sm jetbrains-mono cursor-pointer">
+					className="text-[#002834] text-sm jetbrains-mono cursor-pointer transition hover:text-[#F99200]">
 					ПРО НАС
 				</a>
 			</li>
 			<li>
 				<a
 					href="#offers"
-					className="text-[#002834] text-sm jetbrains-mono cursor-pointer">
+					className="text-[#002834] text-sm jetbrains-mono cursor-pointer transition hover:text-[#F99200]">
 					ПРОПОЗИЦІЇ
 				</a>
 			</li>
 			<li>
 				<a
 					href="#contacts"
-					className="text-[#002834] text-sm jetbrains-mono cursor-pointer">
+					className="text-[#002834] text-sm jetbrains-mono cursor-pointer transition hover:text-[#F99200]">
 					КОНТАКТИ
 				</a>
 			</li>

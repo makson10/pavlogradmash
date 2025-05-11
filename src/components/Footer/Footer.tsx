@@ -44,7 +44,7 @@ const Footer = () => (
 						<p className="md:max-lg:hidden">+380 67 134 20 00</p>
 					</div>
 					<p className="bebas-neue text-sm text-[#D1D5DB] max-sm:text-base">
-						В неробочий час виклики не приймаються, дякуємо за розуміння
+						В неробочий час виклики не приймаються <br /> Дякуємо за розуміння
 					</p>
 				</div>
 			</div>

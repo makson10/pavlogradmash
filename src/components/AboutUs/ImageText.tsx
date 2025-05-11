@@ -5,8 +5,8 @@ const ImageText = () => (
 				ПРО НАШЕ ПІДПРИЄМСТВО
 			</p>
 			<div className="flex flex-col gap-4 md:max-lg:gap-3">
-				<div className="w-[410px] border-2 border-[#F99200] md:max-lg:border-[1px] md:max-lg:w-4/5" />
-				<div className="w-[304px] border-2 border-[#F99200] md:max-lg:border-[1px] md:max-lg:w-3/5" />
+				<div className="w-[410px] border-1 border-[#F99200] md:max-lg:border-[1px] md:max-lg:w-4/5" />
+				<div className="w-[304px] border-1 border-[#F99200] md:max-lg:border-[1px] md:max-lg:w-3/5" />
 			</div>
 		</div>
 		<p className="inter text-[#002834] text-[18px] max-sm:tracking-wide max-sm:text-lg md:max-lg:text-base">

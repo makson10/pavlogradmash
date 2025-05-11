@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const images = [
 	'/imageSlider/1.png',
@@ -29,6 +29,13 @@ const ImageSlider = () => {
 		setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
 		setIsAnimating(false);
 	};
+
+	useEffect(() => {
+		setInterval(() => {
+			if (isAnimating) return;
+			handleNext();
+		}, 5000);
+	}, []);
 
 	return (
 		<div className="relative flex items-center justify-center">

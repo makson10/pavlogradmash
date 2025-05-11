@@ -20,7 +20,7 @@ const InformationText = () => {
 						енергетики України
 					</p>
 					<button
-						className="bg-[#002834] text-white rounded-full flex flex-row gap-2 w-[380px] h-[60px] mt-8 cursor-pointer z-10 max-sm:bg-[#F99200] max-sm:h-fit max-sm:py-2 max-sm:mt-auto max-sm:mb-10 max-sm:w-full"
+						className="bg-[#002834] text-white rounded-full flex flex-row gap-2 w-[380px] h-[60px] mt-8 cursor-pointer z-10 max-sm:bg-[#F99200] max-sm:h-fit max-sm:py-2 max-sm:mt-auto max-sm:mb-10 max-sm:w-full group"
 						onClick={handleClick}>
 						<div className="jetbrains-mono m-auto text-sm flex flex-row gap-2 items-center">
 							<p>Залишай заявку</p>
@@ -29,7 +29,8 @@ const InformationText = () => {
 								height="24"
 								viewBox="0 0 32 33"
 								fill="none"
-								xmlns="http://www.w3.org/2000/svg">
+								xmlns="http://www.w3.org/2000/svg"
+								className="transition-all duration-600 ease-in-out group-hover:translate-x-[600%] group-hover:opacity-0">
 								<path
 									fill-rule="evenodd"
 									clip-rule="evenodd"

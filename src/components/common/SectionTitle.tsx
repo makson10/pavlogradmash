@@ -8,8 +8,8 @@ const SectionTitle = ({ title }: Props) => (
 			{title}
 		</p>
 		<div className="flex flex-col gap-4 items-center max-sm:w-full md:max-lg:w-full max-sm:gap-3 md:max-lg:gap-3">
-			<div className="w-[410px] border-2 border-[#F99200] max-sm:w-3/5 md:max-lg:border-[1px] md:max-lg:w-2/5" />
-			<div className="w-[304px] border-2 border-[#F99200] max-sm:w-2/5 md:max-lg:border-[1px] md:max-lg:w-1/5" />
+			<div className="w-[410px] border-1 border-[#F99200] max-sm:w-3/5 md:max-lg:border-[1px] md:max-lg:w-2/5" />
+			<div className="w-[304px] border-1 border-[#F99200] max-sm:w-2/5 md:max-lg:border-[1px] md:max-lg:w-1/5" />
 		</div>
 	</div>
 );

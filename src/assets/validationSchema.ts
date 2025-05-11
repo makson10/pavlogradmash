@@ -13,7 +13,10 @@ const validationSchema = Yup.object({
 			'Номер телефону повинен починатися з +380 і містити 12 цифр'
 		)
 		.required("Номер телефону є обов'язковим"),
-	message: Yup.string(),
+	message: Yup.string().max(
+		500,
+		'Повідомлення не повинно перевищувати 500 символів'
+	),
 	fuelType: Yup.string().required("Вибір виду палива є обов'язковим"),
 });
 
