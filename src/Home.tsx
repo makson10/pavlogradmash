@@ -9,7 +9,7 @@ import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
 
 // TODO:
-//? final check and domain name
+//? buy and set up domain name
 //? add SEO (sitemap.xml, robots.txt, markup optimization, meta tags)
 
 const Home = () => (

@@ -1,5 +1,5 @@
 const OurPartnersList = () => (
-	<div className="w-full flex flex-row justify-center gap-24 max-sm:grid max-sm:grid-cols-2 max-sm:gap-4 max-sm:p-6">
+	<div className="w-full flex flex-row justify-center gap-24 max-sm:grid max-sm:grid-cols-2 max-sm:gap-4 max-sm:p-6 md:max-lg:justify-between md:max-lg:gap-0">
 		<img
 			src="ourPartners/1.png"
 			alt="#"

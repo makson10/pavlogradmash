@@ -9,7 +9,7 @@
 }
 
 .row-button {
-	@apply font-[Jetbrains_mono] bg-[#F99200] text-white px-4 py-3 rounded-full cursor-pointer md:max-lg:text-sm hover:bg-[#D56400] max-sm:text-sm max-sm:py-2;
+	@apply font-[Jetbrains_mono] bg-[#F99200] text-white px-4 py-3 rounded-full cursor-pointer md:max-lg:text-sm hover:bg-[#D56400] max-sm:text-sm max-sm:py-2 md:max-lg:py-2;
 }
 
 .table-scroll {

@@ -1,7 +1,7 @@
 const Footer = () => (
 	<div className="min-h-[200px] bg-[#002834] px-[12%] py-4 max-sm:mt-0 max-sm:px-8 max-sm:pt-8 md:max-lg:px-16">
 		<div className="flex flex-col gap-2 text-white">
-			<div className="flex flex-row gap-4 justify-between mb-4 max-sm:flex-col max-sm:gap-8 md:max-lg:gap-6 md:max-lg:items-center">
+			<div className="flex flex-row gap-4 justify-between mb-4 max-sm:flex-col max-sm:gap-8 md:max-lg:gap-6">
 				<div className="w-1/4 md:max-lg:bebas-neue max-sm:w-full md:max-lg:w-1/2">
 					<p className="text-[17px] max-sm:font-[Jetbrains_mono]">
 						ТОВ "ПАВЛОГРАДМАШ"

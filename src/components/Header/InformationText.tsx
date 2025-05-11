@@ -12,15 +12,15 @@ const InformationText = () => {
 						className="hidden max-sm:block absolute left-0 scale-[120%] -z-20"
 						draggable="false"
 					/>
-					<p className="text-[34px] max-sm:text-white max-sm:inter max-sm:text-3xl md:max-lg:text-2xl md:max-lg:bebas-neue">
+					<p className="text-[34px] max-sm:text-white max-sm:inter max-sm:text-3xl md:max-lg:text-xl md:max-lg:bebas-neue">
 						Енергія глибин — сила майбутнього
 					</p>
-					<p className="text-xl max-sm:text-[#ACABAE] max-sm:inter max-sm:text-base md:max-lg:bebas-neue">
+					<p className="text-xl max-sm:text-[#ACABAE] max-sm:inter max-sm:text-base md:max-lg:bebas-neue md:max-lg:text-base">
 						Надійний видобуток вугілля для сталого розвитку промисловості та
 						енергетики України
 					</p>
 					<button
-						className="bg-[#002834] text-white rounded-full flex flex-row gap-2 w-[380px] h-[60px] mt-8 cursor-pointer z-10 max-sm:bg-[#F99200] max-sm:h-fit max-sm:py-2 max-sm:mt-auto max-sm:mb-10 max-sm:w-full group"
+						className="bg-[#002834] text-white rounded-full flex flex-row gap-2 w-[380px] h-[60px] mt-8 cursor-pointer z-20 max-sm:bg-[#F99200] max-sm:h-fit max-sm:py-2 max-sm:mt-auto max-sm:mb-10 max-sm:w-full group md:max-lg:w-fit md:max-lg:px-12 md:max-lg:h-fit md:max-lg:py-2 md:max-lg:mt-0"
 						onClick={handleClick}>
 						<div className="jetbrains-mono m-auto text-sm flex flex-row gap-2 items-center">
 							<p>Залишай заявку</p>
@@ -46,7 +46,7 @@ const InformationText = () => {
 				<img
 					src="header/header-image.png"
 					alt="#"
-					className="absolute top-[26%] -left-[30%] scale-[210%] md:max-lg:scale-[150%] md:max-lg:-left-[10%] md:max-lg:top-[40%]"
+					className="absolute top-[26%] -left-[30%] scale-[210%] md:max-lg:-left-[30%] md:max-lg:top-[25%] md:max-lg:scale-[200%] md:max-lg:z-10"
 					draggable="false"
 				/>
 			</div>

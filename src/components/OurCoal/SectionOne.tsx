@@ -7,7 +7,7 @@ const SectionOne = () => (
 		/>
 		<div className="flex flex-col gap-6 w-2/3 max-sm:text-center max-sm:gap-2 max-sm:w-full md:max-lg:gap-2">
 			<h2 className="text-[24px] bebas-neue text-[#F99200]">Кам’яне вугілля</h2>
-			<h2 className="text-[18px] bebas-neue text-[#002834] leading-[36px] max-sm:leading-normal max-sm:text-[15px] max-sm:w-4/5 max-sm:mx-auto md:max-lg:text-base md:max-lg:leading-[2]">
+			<h2 className="text-[18px] bebas-neue text-[#002834] leading-[36px] max-sm:leading-normal max-sm:text-[15px] max-sm:w-4/5 max-sm:mx-auto md:max-lg:text-sm md:max-lg:leading-[1.5]">
 				Один із найцінніших природних енергетичних ресурсів. Воно утворилося
 				впродовж мільйонів років із рослинних залишків під впливом високого
 				тиску та температури. Наше підприємство спеціалізується якісному
