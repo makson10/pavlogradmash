@@ -3,6 +3,8 @@ import { createRoot } from 'react-dom/client';
 import Home from './Home.tsx';
 import store from './store/store.ts';
 import { Provider } from 'react-redux';
+import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import './styles/global.css';
 import './styles/fonts.css';
 
@@ -11,6 +13,8 @@ createRoot(document.getElementById('root')!).render(
 		<Provider store={store}>
 			<div id="portal" className="fixed z-[101] w-screen overflow-hidden" />
 			<Home />
+			<Analytics />
+			<SpeedInsights />
 		</Provider>
 	</StrictMode>
 );
