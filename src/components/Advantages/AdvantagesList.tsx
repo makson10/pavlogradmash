@@ -2,7 +2,7 @@ import AdvantageCard from './AdvantageCard';
 import { FirstIcon, SecondIcon, ThirdIcon, FourthIcon } from './Icons';
 
 const AdvantagesList = () => (
-	<div className="mx-20 flex flex-row justify-between gap-12 max-sm:flex-col max-sm:mx-0 max-sm:justify-center max-sm:gap-6">
+	<div className="mx-20 flex flex-row justify-between gap-12 max-sm:flex-col max-sm:mx-0 max-sm:justify-center max-sm:gap-6 md:max-lg:grid md:max-lg:grid-cols-2 md:max-lg:gap-8 md:max-lg:mx-8">
 		<AdvantageCard
 			icon={<FirstIcon />}
 			title="Висока якість вугілля"

@@ -8,12 +8,12 @@ interface Props {
 
 const PartnerCard = ({ icon, title, description }: Props) => (
 	<>
-		<div className="text-center flex flex-col justify-between gap-2 items-center max-sm:hidden">
-			<div className="mx-auto h-1/3">{icon}</div>
-			<p className="jetbrains-mono text-[20px] text-[#002834] h-1/3 flex flex-col justify-center">
+		<div className="text-center flex flex-col justify-between gap-2 items-center max-sm:hidden md:max-lg:bg-[#E9E9EB] md:max-lg:rounded-[16px] md:max-lg:p-4 md:max-lg:gap-0 md:max-lg:flex-[0_0_calc(31%)]">
+			<div className="mx-auto h-1/3 md:max-lg:h-fit">{icon}</div>
+			<p className="jetbrains-mono text-[20px] text-[#002834] h-1/3 flex flex-col justify-center md:max-lg:h-fit md:max-lg:text-[18px]">
 				{title}
 			</p>
-			<p className="jetbrains-mono text-[13px] text-[#002834] h-1/3 flex flex-col justify-center">
+			<p className="jetbrains-mono text-[13px] text-[#002834] h-1/3 flex flex-col justify-center md:max-lg:h-fit md:max-lg:text-[12px]">
 				{description}
 			</p>
 		</div>

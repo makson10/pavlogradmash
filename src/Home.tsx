@@ -10,10 +10,12 @@ import Footer from './components/Footer/Footer';
 
 // TODO:
 //? add responsive design for tablet
+//? final check and domain name
+//? add SEO (sitemap.xml, robots.txt, markup optimization)
 
 const Home = () => (
 	<div className="min-w-screen min-h-screen max-sm:overflow-x-hidden">
-		<div className="p-8 flex flex-col gap-36 max-sm:p-0 max-sm:gap-16 max-sm:mb-14">
+		<div className="p-8 flex flex-col gap-36 max-sm:p-0 max-sm:gap-16 max-sm:mb-14 md:max-lg:gap-24">
 			<Header />
 			<Advantages />
 			<AboutUs />

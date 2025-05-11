@@ -32,7 +32,7 @@ const ImageSlider = () => {
 
 	return (
 		<div className="relative flex items-center justify-center">
-			<div className="relative w-[500px] h-[500px] max-sm:h-[330px]">
+			<div className="relative w-[500px] h-[500px] max-sm:h-[330px] md:max-lg:h-[330px] md:max-lg:w-[330px]">
 				{images.map((image, index) => (
 					<img
 						key={index}
@@ -46,7 +46,7 @@ const ImageSlider = () => {
 			</div>
 			<button
 				onClick={handlePrevious}
-				className="absolute left-0 top-1/2 transform -translate-y-1/2 px-4 py-3 bg-gray-200/30 transition-all hover:bg-gray-200/75">
+				className="absolute left-0 top-1/2 transform -translate-y-1/2 px-4 py-3 bg-gray-200/30 transition-all hover:bg-gray-200/75 cursor-pointer">
 				<svg
 					width="14"
 					height="25"
@@ -64,7 +64,7 @@ const ImageSlider = () => {
 			</button>
 			<button
 				onClick={handleNext}
-				className="absolute right-0 top-1/2 transform -translate-y-1/2 px-4 py-3 bg-gray-200/30 transition-all hover:bg-gray-200/75">
+				className="absolute right-0 top-1/2 transform -translate-y-1/2 px-4 py-3 bg-gray-200/30 transition-all hover:bg-gray-200/75 cursor-pointer">
 				<svg
 					width="14"
 					height="25"

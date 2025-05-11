@@ -2,9 +2,9 @@ import SectionTitle from '../common/SectionTitle';
 import OurPartnersList from './OurPartnersList';
 
 const OurPartners = () => (
-	<div className="flex flex-col gap-8 items-center mx-26 max-sm:mx-0 max-sm:gap-4">
+	<div className="flex flex-col gap-8 items-center mx-26 max-sm:mx-0 max-sm:gap-4 md:max-lg:mx-10 md:max-lg:gap-6">
 		<SectionTitle title="НАШІ ПАРТНЕРИ" />
-		<p className="bebas-neue max-sm:w-4/5 text-[18px] text-[#002834] max-sm:text-center">
+		<p className="bebas-neue max-sm:w-4/5 text-[18px] text-[#002834] max-sm:text-center md:max-lg:text-base md:max-lg:text-center">
 			Наше підприємство співпрацює з великою кількістю організацій.{' '}
 			<br className="hidden max-sm:block" /> Серед них ви можете побачити:
 		</p>
