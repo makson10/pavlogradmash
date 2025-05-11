@@ -135,7 +135,7 @@ const ContactForm = () => {
 									<Field
 										as="select"
 										name="fuelType"
-										className="cursor-pointer"
+										className="form-input cursor-pointer"
 										value={values.fuelType}
 										onChange={handleChange}>
 										<option value="" disabled>
