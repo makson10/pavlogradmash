@@ -9,7 +9,7 @@ import SyncFuelTypeWithRedux from '@/store/SyncFuelTypeWithRedux';
 import '@/styles/input.css';
 
 const ContactForm = () => {
-	const { isMobile, isTablet, isDesktop } = useDeviceDetection();
+	const { isMobile } = useDeviceDetection();
 	const [showSubmitMessage, setShowSubmitMessage] = useState(false);
 
 	const initialValues: IFormData = {
@@ -131,68 +131,34 @@ const ContactForm = () => {
 										className="input-error"
 									/>
 								</div>
-								<div>
-									{isMobile || isTablet ? (
-										<div className="form-input">
-											<Field
-												as="select"
-												name="fuelType"
-												className="cursor-pointer"
-												value={values.fuelType}
-												onChange={handleChange}>
-												<option value="" disabled>
-													Вид палива, який цікав
-												</option>
-												<option value="nevermind">
-													Будь-який/не можу визначитися
-												</option>
-												<hr />
-												<option value="coal_dg">ВУГІЛЛЯ ДГ</option>
-												<option value="coal_gj">ВУГІЛЛЯ ГЖ</option>
-												<option value="coal_dgr">ВУГІЛЛЯ ДГР</option>
-												<option value="shlamokontsentrat">
-													ШЛАМОКОНЦЕНТРАТ АГРІЛІТ
-												</option>
-											</Field>
-											<div>
-												<ErrorMessage
-													name="fuelType"
-													component="div"
-													className="input-error"
-												/>
-											</div>
-										</div>
-									) : (
-										<div className={!isDesktop || isTablet ? 'form-input' : ''}>
-											<Field
-												as="select"
-												name="fuelType"
-												className="form-input cursor-pointer"
-												value={values.fuelType}
-												onChange={handleChange}>
-												<option value="" disabled>
-													Вид палива, який цікав
-												</option>
-												<option value="nevermind">
-													Будь-який/не можу визначитися
-												</option>
-												<hr />
-												<option value="coal_dg">ВУГІЛЛЯ ДГ</option>
-												<option value="coal_gj">ВУГІЛЛЯ ГЖ</option>
-												<option value="coal_dgr">ВУГІЛЛЯ ДГР</option>
-												<option value="shlamokontsentrat">
-													ШЛАМОКОНЦЕНТРАТ АГРІЛІТ
-												</option>
-											</Field>
-											<div>
-												<ErrorMessage
-													name="fuelType"
-													component="div"
-													className="input-error"
-												/>
-											</div>
-										</div>
-									)}
+								<div className={isMobile ? 'form-input' : ''}>
+									<Field
+										as="select"
+										name="fuelType"
+										className="cursor-pointer"
+										value={values.fuelType}
+										onChange={handleChange}>
+										<option value="" disabled>
+											Вид палива, який цікавить
+										</option>
+										<option value="nevermind">
+											Будь-який/не можу визначитися
+										</option>
+										<hr />
+										<option value="coal_dg">ВУГІЛЛЯ ДГ</option>
+										<option value="coal_gj">ВУГІЛЛЯ ГЖ</option>
+										<option value="coal_dgr">ВУГІЛЛЯ ДГР</option>
+										<option value="shlamokontsentrat">
+											ШЛАМОКОНЦЕНТРАТ АГРІЛІТ
+										</option>
+									</Field>
+									<div>
+										<ErrorMessage
+											name="fuelType"
+											component="div"
+											className="input-error"
+										/>
+									</div>
 								</div>
 								<button
 									type="submit"
