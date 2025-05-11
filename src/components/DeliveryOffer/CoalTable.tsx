@@ -11,8 +11,10 @@ const CoalTable = () => {
 	};
 
 	return (
-		<div className="w-full overflow-x-auto">
-			<table className="w-full border-separate border-spacing-y-5 max-sm:border-spacing-y-2 max-sm:mt-4 md:max-lg:mt-0 md:max-lg:border-spacing-y-0">
+		<div
+			className="w-full table-scroll overflow-scroll"
+			style={{ WebkitOverflowScrolling: 'touch', overflow: 'scroll' }}>
+			<table className="w-full border-separate border-spacing-y-5 max-sm:border-spacing-y-0 max-sm:mt-4 md:max-lg:mt-0 md:max-lg:border-spacing-y-0">
 				<thead>
 					<tr className="bg-[#D9D9D9]">
 						<th className="header-cell">ВИД ПАЛИВА</th>

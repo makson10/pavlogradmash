@@ -4,7 +4,7 @@ const SectionTwo = () => (
 			<h2 className="text-[24px] bebas-neue text-[#F99200]">
 				Шлам вугільний (аргіліт)
 			</h2>
-			<h2 className="text-[18px] bebas-neue text-[#002834] leading-[36px] max-sm:leading-normal max-sm:text-base max-sm:w-4/5 max-sm:mx-auto md:max-lg:text-base md:max-lg:leading-[2]">
+			<h2 className="text-[18px] bebas-neue text-[#002834] leading-[36px] max-sm:leading-normal max-sm:text-[15px] max-sm:w-4/5 max-sm:mx-auto md:max-lg:text-base md:max-lg:leading-[2]">
 				Природний осадовий матеріал, що утворюється під час збагачення кам'яного
 				вугілля. Він являє собою суміш дрібних частинок вугілля та глинистих
 				порід. Наше підприємство спеціалізується на шламовому вугіллі

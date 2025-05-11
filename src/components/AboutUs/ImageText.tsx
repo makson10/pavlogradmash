@@ -9,7 +9,7 @@ const ImageText = () => (
 				<div className="w-[304px] border-1 border-[#F99200] md:max-lg:border-[1px] md:max-lg:w-3/5" />
 			</div>
 		</div>
-		<p className="inter text-[#002834] text-[18px] max-sm:tracking-wide max-sm:text-lg md:max-lg:text-base">
+		<p className="inter text-[#002834] text-[18px] max-sm:tracking-wide max-sm:text-base md:max-lg:text-base">
 			Із 2017 року впевнено працюємо на ринку, не виступаючи посередниками, а
 			повністю контролюючи процес — від видобутку до відвантаження. Власна
 			лабораторія дозволяє нам гарантувати стабільну якість продукції, що

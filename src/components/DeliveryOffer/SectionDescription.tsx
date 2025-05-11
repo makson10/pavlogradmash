@@ -2,7 +2,7 @@ const SectionDescription = () => {
 	const handleClick = () => (window.location.href = '#contact-form');
 
 	return (
-		<div className="text-center bebas-neue text-[#002834] text-[20px] tracking-wide max-sm:mx-4 max-sm:text-base md:max-lg:text-lg">
+		<div className="text-center bebas-neue text-[#002834] text-[20px] tracking-wide max-sm:mx-4 max-sm:text-[15px] md:max-lg:text-lg">
 			<p>Даний список пропонованих до постачання вугілля не є вичерпним.</p>
 			<p>
 				У разі Вашої зацікавленості в інших марках/фракціях вугільної продукції
