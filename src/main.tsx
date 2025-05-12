@@ -13,8 +13,8 @@ createRoot(document.getElementById('root')!).render(
 		<Provider store={store}>
 			<div id="portal" className="fixed z-[101] w-screen overflow-hidden" />
 			<Home />
-			<Analytics />
-			<SpeedInsights />
 		</Provider>
+		<Analytics />
+		<SpeedInsights />
 	</StrictMode>
 );
