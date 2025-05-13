@@ -9,7 +9,6 @@ import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
 
 // TODO:
-//? improve SEO
 //? fix responsive design for laptop and big tablet
 
 const Home = () => (

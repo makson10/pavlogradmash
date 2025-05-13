@@ -38,7 +38,7 @@ const CoalTable = () => {
 							<button
 								className="row-button"
 								onClick={() => handleClick('shlamokontsentrat')}>
-								ЗАЛИШИТИ ЗАПИТ
+								ЗАМОВИТИ
 							</button>
 						</td>
 					</tr>
@@ -54,7 +54,7 @@ const CoalTable = () => {
 							<button
 								className="row-button"
 								onClick={() => handleClick('coal_dg')}>
-								ЗАЛИШИТИ ЗАПИТ
+								ЗАМОВИТИ
 							</button>
 						</td>
 					</tr>
@@ -70,7 +70,7 @@ const CoalTable = () => {
 							<button
 								className="row-button"
 								onClick={() => handleClick('coal_gj')}>
-								ЗАЛИШИТИ ЗАПИТ
+								ЗАМОВИТИ
 							</button>
 						</td>
 					</tr>
@@ -86,7 +86,7 @@ const CoalTable = () => {
 							<button
 								className="row-button"
 								onClick={() => handleClick('coal_dgr')}>
-								ЗАЛИШИТИ ЗАПИТ
+								ЗАМОВИТИ
 							</button>
 						</td>
 					</tr>

@@ -145,12 +145,12 @@ const ContactForm = () => {
 											Будь-який/не можу визначитися
 										</option>
 										<hr />
-										<option value="coal_dg">ВУГІЛЛЯ ДГ</option>
-										<option value="coal_gj">ВУГІЛЛЯ ГЖ</option>
-										<option value="coal_dgr">ВУГІЛЛЯ ДГР</option>
 										<option value="shlamokontsentrat">
 											ШЛАМОКОНЦЕНТРАТ АГРІЛІТ
 										</option>
+										<option value="coal_dg">ВУГІЛЛЯ ДГ</option>
+										<option value="coal_gj">ВУГІЛЛЯ ГЖ</option>
+										<option value="coal_dgr">ВУГІЛЛЯ ДГР</option>
 									</Field>
 									<div>
 										<ErrorMessage

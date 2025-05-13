@@ -16,7 +16,7 @@ const InformationText = () => {
 						Енергія глибин — сила майбутнього
 					</p>
 					<h1 className="text-xl max-sm:text-[#ACABAE] max-sm:inter max-sm:text-base md:max-lg:bebas-neue md:max-lg:text-base">
-						Надійний видобуток вугілля для сталого розвитку промисловості та
+						Надійний постачальник вугілля для сталого розвитку промисловості та
 						енергетики України
 					</h1>
 					<button
