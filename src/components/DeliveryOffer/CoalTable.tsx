@@ -27,6 +27,22 @@ const CoalTable = () => {
 				</thead>
 				<tbody>
 					<tr className="bg-[#E9E9EB]">
+						<td className="row-cell">ШЛАМОКОНЦЕНТРАТ</td>
+						<td className="row-cell">АГРІЛІТ</td>
+						<td className="row-cell">0.3 мм</td>
+						<td className="row-cell">10-45%</td>
+						<td className="row-cell">25%</td>
+						<td className="row-cell">3400-5100</td>
+						<td className="row-cell">38-42%</td>
+						<td className="row-cell">
+							<button
+								className="row-button"
+								onClick={() => handleClick('shlamokontsentrat')}>
+								ЗАЛИШИТИ ЗАПИТ
+							</button>
+						</td>
+					</tr>
+					<tr className="bg-[#E9E9EB]">
 						<td className="row-cell">ВУГІЛЛЯ</td>
 						<td className="row-cell">ДГ</td>
 						<td className="row-cell">0-13, 13-100</td>
@@ -70,22 +86,6 @@ const CoalTable = () => {
 							<button
 								className="row-button"
 								onClick={() => handleClick('coal_dgr')}>
-								ЗАЛИШИТИ ЗАПИТ
-							</button>
-						</td>
-					</tr>
-					<tr className="bg-[#E9E9EB]">
-						<td className="row-cell">ШЛАМОКОНЦЕНТРАТ</td>
-						<td className="row-cell">АГРІЛІТ</td>
-						<td className="row-cell">0.3 мм</td>
-						<td className="row-cell">20-45%</td>
-						<td className="row-cell">18%</td>
-						<td className="row-cell">3400-5100</td>
-						<td className="row-cell">38-42%</td>
-						<td className="row-cell">
-							<button
-								className="row-button"
-								onClick={() => handleClick('shlamokontsentrat')}>
 								ЗАЛИШИТИ ЗАПИТ
 							</button>
 						</td>

@@ -44,7 +44,7 @@ const ImageSlider = () => {
 					<img
 						key={index}
 						src={image}
-						alt={`Slide ${index + 1}`}
+						alt={`Coal slide ${index + 1}`}
 						className={`absolute top-0 left-0 w-full h-full rounded-[16px] object-cover transition-opacity duration-300 ${
 							index === currentIndex ? 'opacity-100' : 'opacity-0'
 						}`}

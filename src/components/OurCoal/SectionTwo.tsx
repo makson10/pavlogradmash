@@ -16,7 +16,7 @@ const SectionTwo = () => (
 		</div>
 		<img
 			src="/ourCoal/2.png"
-			alt="#"
+			alt="coal-image"
 			className="w-[650px] h-[350px] object-cover object-top rounded-[16px] max-sm:w-[200px] max-sm:h-[200px] md:max-lg:w-[600px] md:max-lg:h-[230px]"
 		/>
 	</div>

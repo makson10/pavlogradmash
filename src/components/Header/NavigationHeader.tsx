@@ -3,7 +3,7 @@ const NavigationHeader = () => (
 		<div className="flex flex-row gap-1 max-sm:flex-col max-sm:gap-2">
 			<img
 				src="/logo.png"
-				alt="#"
+				alt="pavlogradmash-logo"
 				className="max-sm:w-1/2 max-sm:h-1/2 max-sm:mx-auto"
 			/>
 			<p className="bebas-neue text-[#002834] flex flex-col justify-center text-lg tracking-wider max-sm:text-lg max-sm:mt-0 max-sm:tracking-normal">

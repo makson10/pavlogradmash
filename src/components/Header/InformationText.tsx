@@ -8,17 +8,17 @@ const InformationText = () => {
 					<div className="hidden max-sm:block bg-[#002834]/76 absolute w-full h-full top-0 left-0 -z-10" />
 					<img
 						src="header/header-image.png"
-						alt="#"
+						alt="header-tractor"
 						className="hidden max-sm:block absolute left-0 scale-[120%] -z-20"
 						draggable="false"
 					/>
 					<p className="text-[34px] max-sm:text-white max-sm:inter max-sm:text-3xl md:max-lg:text-xl md:max-lg:bebas-neue">
 						Енергія глибин — сила майбутнього
 					</p>
-					<p className="text-xl max-sm:text-[#ACABAE] max-sm:inter max-sm:text-base md:max-lg:bebas-neue md:max-lg:text-base">
+					<h1 className="text-xl max-sm:text-[#ACABAE] max-sm:inter max-sm:text-base md:max-lg:bebas-neue md:max-lg:text-base">
 						Надійний видобуток вугілля для сталого розвитку промисловості та
 						енергетики України
-					</p>
+					</h1>
 					<button
 						className="bg-[#002834] text-white rounded-full flex flex-row gap-2 w-[380px] h-[60px] mt-8 cursor-pointer z-20 max-sm:bg-[#F99200] max-sm:h-fit max-sm:py-2 max-sm:mt-auto max-sm:mb-10 max-sm:w-full group md:max-lg:w-fit md:max-lg:px-12 md:max-lg:h-fit md:max-lg:py-2 md:max-lg:mt-0"
 						onClick={handleClick}>
@@ -45,7 +45,7 @@ const InformationText = () => {
 			<div className="relative rounded-[40px] w-1/2 bg-[url('/header/header-image-background.png')] bg-cover bg-center hidden md:max-lg:block">
 				<img
 					src="header/header-image.png"
-					alt="#"
+					alt="header-tractor"
 					className="absolute top-[26%] -left-[30%] scale-[210%] md:max-lg:-left-[30%] md:max-lg:top-[25%] md:max-lg:scale-[200%] md:max-lg:z-10"
 					draggable="false"
 				/>

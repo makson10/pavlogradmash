@@ -8,6 +8,10 @@ import OurPartners from './components/OurPartners/OurPartners';
 import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
 
+// TODO:
+//? improve SEO
+//? fix responsive design for laptop and big tablet
+
 const Home = () => (
 	<div className="min-w-screen min-h-screen max-sm:overflow-x-hidden">
 		<div className="p-8 flex flex-col gap-36 max-sm:p-0 max-sm:gap-16 max-sm:mb-14 md:max-lg:gap-24">
