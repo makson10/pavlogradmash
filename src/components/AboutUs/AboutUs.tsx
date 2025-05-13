@@ -8,7 +8,7 @@ const AboutUs = () => (
 			<SectionTitle title="ПРО НАШЕ ПІДПРИЄМСТВО" />
 		</div>
 		<div
-			className="rounded-[40px] bg-[#E9E9EB] mx-40 p-10 flex flex-row gap-12 max-sm:mx-8 max-sm:p-6 max-sm:flex-col max-sm:gap-8 md:max-lg:p-0 md:max-lg:m-0 md:max-lg:px-6 md:max-lg:py-4 md:max-lg:gap-10"
+			className="rounded-[40px] bg-[#E9E9EB] mx-40 p-10 flex flex-row gap-12 max-sm:mx-8 max-sm:p-6 max-sm:flex-col max-sm:gap-8 md:max-lg:p-0 md:max-lg:m-0 md:max-lg:px-6 md:max-lg:py-4 md:max-lg:gap-10 lg:max-xl:m-0"
 			id="about">
 			<ImageSlider />
 			<ImageText />

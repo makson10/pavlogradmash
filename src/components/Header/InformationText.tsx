@@ -3,8 +3,8 @@ const InformationText = () => {
 
 	return (
 		<div className="md:max-lg:flex md:max-lg:flex-row md:max-lg:gap-4">
-			<div className="w-[80%] bebas-neue ml-12 flex flex-col gap-6 z-10 max-sm:bg-[url('/header/header-image-background.png')] max-sm:bg-cover max-sm:bg-bottom max-sm:w-full max-sm:m-0 max-sm:min-h-[450px] max-sm:px-6 max-sm:pt-20 max-sm:relative md:max-lg:ml-0 md:max-lg:bg-[#E9E9EB] md:max-lg:p-8 md:max-lg:py-24 md:max-lg:rounded-[40px] md:max-lg:w-[70%] md:max-lg:flex-row">
-				<div className="flex flex-col gap-6">
+			<div className="w-[80%] bebas-neue ml-12 flex flex-col gap-6 max-sm:bg-[url('/header/header-image-background.png')] max-sm:bg-cover max-sm:bg-bottom max-sm:w-full max-sm:m-0 max-sm:min-h-[450px] max-sm:px-6 max-sm:pt-20 max-sm:relative md:max-lg:ml-0 md:max-lg:bg-[#E9E9EB] md:max-lg:p-8 md:max-lg:py-24 md:max-lg:rounded-[40px] md:max-lg:w-[70%] md:max-lg:flex-row">
+				<div className="flex flex-col gap-6 z-10">
 					<div className="hidden max-sm:block bg-[#002834]/76 absolute w-full h-full top-0 left-0 -z-10" />
 					<img
 						src="header/header-image.png"
