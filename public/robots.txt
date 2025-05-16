@@ -1,5 +1,9 @@
 User-agent: *
-Disallow: /*png$
-Disallow: /*ico$
+Disallow: /header/
+Disallow: /imageSlider/
+Disallow: /ourCoal/
+Disallow: /ourPartners/
+Disallow: /logo.ico
+Disallow: /logo2.png
 
 Sitemap: https://pavlogradmash.com/sitemap.xml
