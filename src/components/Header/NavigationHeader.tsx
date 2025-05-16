@@ -2,7 +2,7 @@ const NavigationHeader = () => (
 	<div className="z-10 flex flex-row justify-between items-center pr-10 max-sm:pr-0 max-sm:justify-center md:max-lg:pr-0 lg:max-2xl:pr-0">
 		<div className="flex flex-row gap-1 max-sm:flex-col max-sm:gap-2">
 			<img
-				src="/logo.png"
+				src="/logo2.png"
 				alt="pavlogradmash-logo"
 				className="max-sm:w-1/2 max-sm:h-1/2 max-sm:mx-auto lg:max-xl:w-1/3"
 			/>
